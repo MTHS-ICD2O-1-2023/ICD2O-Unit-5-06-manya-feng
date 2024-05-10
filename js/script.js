@@ -6,6 +6,9 @@
 
 "use strict"
 
+let counter = 0
+let answer = 0
+
 function myButtonClicked() {
 
   const firstinputNumber = parseInt(document.getElementById("firstinputNumber").value)
@@ -17,5 +20,5 @@ function myButtonClicked() {
   }
 
   document.getElementById("answer").innerHTML = 
-    firstinputNumber + " x " + secondinputNumber + "=" + answer
+    firstinputNumber + " x " + secondinputNumber + " = " + answer
 }
